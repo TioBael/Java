@@ -1,0 +1,9 @@
+
+public class TestaConversao {
+	public static void main(String [] args) {
+		System.out.printf("Casting para tipos primitivos!\n");
+		double salario = 1500.75;
+		int novoSalario = (int) salario;
+		System.out.printf("O novo salario e de: %dR$, porem perdeu a precisao dos 0.50", novoSalario);
+	}
+}

@@ -1,0 +1,8 @@
+
+public class TestaFor {
+	public static void main(String[] args) {
+		int i=0;
+		for( ; i <= 10; i++)
+			System.out.printf("\nContador usando For: %d", i);
+	}
+}

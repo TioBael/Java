@@ -1,0 +1,15 @@
+
+public class TestaEscopo {
+	public static void main(String[] args) {
+		System.out.printf("Testando Condicionais\n");
+		int idade = 18;
+		boolean acompanhado = true;
+		
+
+		if (idade >= 18 && acompanhado)
+			System.out.println("Você pode entrar");
+		else
+			System.out.println("Você não pode entrar");
+	}
+
+}

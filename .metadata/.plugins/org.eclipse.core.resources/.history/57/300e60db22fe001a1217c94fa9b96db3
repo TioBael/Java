@@ -1,0 +1,13 @@
+
+public class TestaCondicional {
+	public static void main(String[] args) {
+		System.out.printf("Testando Condicionais");
+		int idade = 20;
+		
+		if(idade >= 18)
+			System.out.printf("Você é maior de idade!");
+		else
+			System.out.println("Você não é maior de idade");
+	}
+
+}
